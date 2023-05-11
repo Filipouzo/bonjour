@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def hello(request):
-    return render(request, "bonjourApp/index.html")
+    return render(request, "bonjourProject/index.html")
