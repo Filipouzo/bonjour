@@ -1,6 +1,8 @@
 
-from django.urls import include, path
+
+from django.urls import path, include
+from django.conf.urls.static import static
 
 urlpatterns = [
-    path('/', include('bonjourApp.urls')),
+    path('/bonjour', include('bonjourApp.urls')),
 ]
